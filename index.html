@@ -11,7 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
+    <script
+      src="https://kit.fontawesome.com/a095f7058a.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
@@ -62,7 +65,9 @@
                 <a class="nav-link navigation-link" href="#">My portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link navigation-link">Contacts</a>
+                <a href="./#contact-box" class="nav-link navigation-link"
+                  >Contacts</a
+                >
               </li>
             </ul>
           </div>
@@ -75,39 +80,124 @@
         <h1 class="hero-title">Natalia Karpenko</h1>
         <h2 class="hero-subtitle">Front-end developer based in Ukraine 🇺🇦</h2>
       </section>
+
       <section class="section">
-        <div class="container benefits-container">
+        <div class="container contact-container">
           <p class="benefits-container-text">
             If you need to have a good quality desktop or web application built,
             just get in touch with me and I'll develop it for you including all
             frontend design.
           </p>
-          <button type="button" class="shadow-sm contact-btn">
+          <a href="./#contact-box" class="shadow-sm contact-btn">
             Contact me
-          </button>
-          <!-- <h2 class="subtitle">Why me?</h2>
-          <h3>My qualifications</h3>
-          <p>
-            successfully completed Basics, Plus and Responsive courses offered
-            by SheCodes that introduced me to product development, product
-            design and product management in IT-industry
-          </p>
-          <h3>My hard skills</h3>
-          <p>
-            professional handling of technologies such as HTML, CSS, JavaScript
-            and frameworks such as Bootstrap and React good knowledge in the
-            areas of browser compatibility, responsive web design
-          </p>
-          <h3>My soft skills</h3>
-          <p>
-            Ability to thrive in a fast-paced environment Solid ability in both
-            written and verbal communication. Ability to solve complex problems
-            learn rapidly and master diverse web technologies and techniques
-          </p>
+          </a>
+        </div>
+      </section>
 
-          Attention to detailAbility to juggle multiple tasks at once -->
+      <section class="section benefits-section">
+        <div class="container">
+          <h2 class="benefits-title">Why me?</h2>
+          <div class="container px-4 text-center">
+            <div class="row gx-4">
+              <div class="col-sm-4">
+                <div class="p-3 border bg-white benefits-box">
+                  <h3 class="benefits-subtitle">My qualifications</h3>
+                  <ul class="benefits-list">
+                    <li class="benefits-item">
+                      successfully completed Basics, Plus and Responsive courses
+                      offered by SheCodes that introduced me to product
+                      development, product design and product management in
+                      IT-industry
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="p-3 border bg-white benefits-box">
+                  <h3 class="benefits-subtitle">My hard skills</h3>
+                  <ul class="benefits-list">
+                    <li class="benefits-item">
+                      Professional handling of HTML, CSS, JavaScript
+                      technologies
+                    </li>
+                    <li class="benefits-item">
+                      Knowledge of frameworks such as Bootstrap and React
+                    </li>
+                    <li class="benefits-item">
+                      Knowledge in the areas of browser compatibility and
+                      responsive web design
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="p-3 border bg-white benefits-box">
+                  <h3 class="benefits-subtitle">My soft skills</h3>
+                  <ul class="benefits-list">
+                    <li class="benefits-item">
+                      Ability to thrive in a fast-paced environment
+                    </li>
+                    <li class="benefits-item">
+                      Ability in both written and verbal communication
+                    </li>
+                    <li class="benefits-item">
+                      Ability to solve complex problems
+                    </li>
+                    <li class="benefits-item">
+                      Ability to learn and master diverse web technologies and
+                      techniques
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
+    <footer class="footer-section" id="contact-box">
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <address>
+              <ul class="contact-list">
+                <li class="contact-item">
+                  <i class="fa-sharp fa-solid fa-location-dot"></i>
+                  <a href="http://surl.li/dewax" class="link contact-link"
+                    >м. Ніжин, 3-й мікрорайон, 12б кв. 45</a
+                  >
+                </li>
+                <li class="contact-item">
+                  <i class="fa-solid fa-at"></i>
+                  <a
+                    href="mailto:nkarpenko1227@gmail.com"
+                    class="link contact-link"
+                    >nkarpenko1227@gmail.com</a
+                  >
+                </li>
+                <li class="contact-item">
+                  <i class="fa-solid fa-phone"></i>
+                  <a href="tel:+380683881702" class="link contact-link"
+                    >+38 068 388 17 02</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="col-2">
+            <a href="https://github.com/natalia-no-war" class="network-icon"
+              ><i class="fa-brands fa-square-github"></i
+            ></a>
+          </div>
+          <div class="col-2">
+            <a
+              href="https://natalia-no-war.github.io/goit-markup-hw-03/"
+              class="network-icon"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
