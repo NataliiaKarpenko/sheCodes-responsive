@@ -1,0 +1,121 @@
+:root {
+  --title-color: #3a0077;
+  --white-color: #fff;
+  --dark-text-color:  #443450;
+  --accent-color: #8983f3;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+}
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+navbar {
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+}
+
+.logo {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  color:var(--accent-color);
+  text-transform: uppercase;
+
+  border: solid 4px #3a0077;
+  border-radius: 50%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.logo:hover {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.navigation-link {
+  color: var(--title-color);
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+
+.active-link {
+  text-decoration: underline;
+}
+
+.hero-section {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 150px;
+
+  background: rgb(246 243 255);
+}
+
+.hero-paragraph {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--title-color);
+
+  line-height: 54px;
+}
+
+.hero-title {
+  margin-bottom: 0;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 128px;
+  color: var(--title-color);
+}
+
+.hero-subtitle {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 36px;
+  color: var(--title-color);
+}
+
+.contact-btn {
+  margin-bottom: 150px;
+  padding: 25px 40px;
+  font-size: 30px;
+  color: #fff;
+
+  background-color: var(--accent-color);
+  border-radius: 20px;
+  border-color: transparent;
+}
+
+.benefits-container {
+  text-align: center;
+}
+
+.benefits-container-text {
+  margin-bottom: 130px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  color: var(--dark-text-color);
+}
+
+.contact-btn:hover,
+.contact-btn:focus {
+  color: var(--accent-color);
+  background-color: var(--white-color);
+  border: 5px solid #8983f3;
+}
+
+
+
+
