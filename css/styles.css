@@ -228,3 +228,35 @@ navbar {
   font-weight: 700;
   color: var(--title-color);
 }
+
+/* work page */
+
+.work-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--title-color);
+}
+
+.launch-btn {
+  padding: 20px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+
+  background-color: var(--accent-color);
+  border-radius: 20px;
+  border-color: transparent;
+}
+
+.launch-btn:hover,
+.launch-btn:focus {
+  color: var(--accent-color);
+  background-color: var(--white-color);
+  border: 3px solid #8983f3;
+}
+
+.work-text {
+  font-size: 18px;
+  color: var(--dark-text-color);
+}

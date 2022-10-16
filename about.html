@@ -31,6 +31,55 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <header>
+      <nav
+        class="navbar sticky-top navbar-expand-lg border-bottom shadow-sm p-3 bg-body rounded"
+      >
+        <div class="container container-fluid fs-3 text">
+          <a class="navbar-brand ps-5 pe-5 me-5 logo" href="./">nk</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item mx-3">
+                <a
+                  class="nav-link navigation-link"
+                  aria-current="page"
+                  href="./"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item me-3">
+                <a
+                  class="nav-link active-link navigation-link"
+                  href="./about.html"
+                  >About me</a
+                >
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link navigation-link" href="./works.html"
+                  >My portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./#contact-box" class="nav-link navigation-link"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main>
       <div class="section">
         <div class="container">
@@ -39,7 +88,7 @@
               <img
                 src="./images/my-photo.jpg"
                 alt="photo"
-                class="rounded img-fluid mx-auto d-block"
+                class="img-fluid mx-auto d-block"
               />
             </div>
             <div class="col-lg-8 ps-5">
@@ -102,6 +151,52 @@
           </div>
         </div>
       </div>
+      <footer class="footer-section" id="contact-box">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <address>
+                <ul class="footer-contact-list">
+                  <li class="footer-contact-item">
+                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    <a
+                      href="http://surl.li/dewax"
+                      class="link footer-contact-link"
+                      >12 mikroraiion, APT. 45, Nizhyn, 16600</a
+                    >
+                  </li>
+                  <li class="footer-contact-item">
+                    <i class="fa-solid fa-at"></i>
+                    <a
+                      href="mailto:nkarpenko1227@gmail.com"
+                      class="link footer-contact-link"
+                      >nkarpenko1227@gmail.com</a
+                    >
+                  </li>
+                  <li class="footer-contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:+380683881702" class="link footer-contact-link"
+                      >+38 068 388 17 02</a
+                    >
+                  </li>
+                </ul>
+              </address>
+            </div>
+            <div class="col-2 d-flex align-items-center">
+              <a href="https://github.com/natalia-no-war" class="network-icon"
+                ><i class="fa-brands fa-square-github"></i
+              ></a>
+            </div>
+            <div class="col-2 d-flex align-items-center">
+              <a
+                href="https://www.facebook.com/profile.php?id=100000894979228"
+                class="network-icon"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
